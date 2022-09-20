@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <span id="HH"></span>:
+    <span id="MM"></span>:
+    <span id="SS"></span>
+    <script>
+        function getTime() {
+            let date = new Date();
+            let HH = date.getHours();
+            let MM = date.getMinutes();
+            let SS = date.getSeconds();
+
+
+            document.getElementById("HH").innerText = HH;
+            document.getElementById("MM").innerText = MM;
+            document.getElementById("SS").innerText = SS;
+
+
+
+            setTimeout(getTime, 1000);
+        }
+
+        getTime();
+    </script>
+</body>
+<script>
+    if(hh>=04 && session==="AM")
+    {
+        let a = document.getElementById("wakeUp");
+        a.innerText = "LET'S HAVE SOME LUNCH !!";
+        a.style.textAlign="center";
+        let b = document.getElementById("img2");
+        b.style.backgroundImage = "url('Images/after.png')";
+    }
+</script>
+</html>

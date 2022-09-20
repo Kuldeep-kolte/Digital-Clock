@@ -16,21 +16,24 @@
 <body>
     <!-- clock logo -->
     <div class="clock-container">
-        <div class="clock"></div>   
+        <div class="clock"></div>
     </div>
     <div class="timecounter tooltip">
         <span class="tooltiptext">The message and Image will change according to the time</span>
-        <div class="timetext">TIME</div>
-        <div class="hours">12 hours</div>
-        <div class="mins">00 mins</div>
-        <div class="secs">01 secs</div>
-        <div class="pm">PM</div>
+        <div class="timetext"><b> TIME </b></div>
+        <!-- <div id="clock" onload="currentTime()"></div> -->
+        <div class="hours" id="hh"></div><span id="colon">:</span>
+        <div class="mins" id = "mm"></div><span id="colon">:</span>
+        <div class="secs" id = "ss"></div>
+        <div class="pm" id = "interval"></div>
     </div>
-    
-    <div class="timecounter1">   </div>
-    <div class="timecounter2">   </div>
-    <div class="title"><h1>GRAB SOME HEALTHY BREAKFAST!!!</h1></div>
-    <div class="img"></div>
+
+    <div class="timecounter1"> </div>
+    <div class="timecounter2"> </div>
+    <div class="title">
+        <h1 id="wakeUp"> </h1>
+    </div>
+    <div class="img" id="img2"></div>
     <!-- set a time wake up / lunch / nap / night -->
     <div class="container1">
         <div class="time1">
@@ -38,7 +41,7 @@
                 light_mode
             </span>
             <span>Set Wake Up Time</span>
-            <select>
+            <select id = "list" onchange="getSelectValue();">
                 <option value="0">Select Time</option>
                 <option value="1">01 AM - 02 AM</option>
                 <option value="2">02 AM - 03 AM</option>
@@ -74,7 +77,7 @@
             </span>
             <span>Set Lunch Time</span>
             <span class="lunchTime"> </span>
-            <select>
+            <select id = "list2" onchange="getSelectValue2();">
                 <option value="0">Select Time</option>
                 <option value="1">01 AM - 02 AM</option>
                 <option value="2">02 AM - 03 AM</option>
@@ -110,7 +113,7 @@
             </span>
             <span>Set Nap Time</span>
             <span class="napTime"></span>
-            <select>
+            <select id = "list3" onchange="getSelectValue3();">
                 <option value="0">Select Time</option>
                 <option value="1">01 AM - 02 AM</option>
                 <option value="2">02 AM - 03 AM</option>
@@ -146,7 +149,7 @@
             </span>
             <span>Set night Time</span>
             <span class="nightTime"> </span>
-            <select>
+            <select id = "list4" onchange="getSelectValue4();">
                 <option value="0">Select Time</option>
                 <option value="1">01 AM - 02 AM</option>
                 <option value="2">02 AM - 03 AM</option>
@@ -174,15 +177,19 @@
             </select>
         </div>
     </div>
+
     <!-- Good Morning wake up -->
     <div class="goodMorning">
-        <h2>Good Morning!! Wake Up!!</h2>
+        <h2 id = "getup"></h2>
     </div>
+
     <!-- set alarm button -->
-    <div class="btn1">
-        <div class="setAlarm">
+    <div class="btn1 ">
+        <div class="setAlarm tooltip1">
+            <span class="tooltiptext1">Time will be updated here after clicking on "Set Alarm"</span>
             <h3>Set Alarm</h3>
         </div>
+        
         <!-- note about timing -->
         <div class="note">
             <ul>
@@ -194,7 +201,7 @@
         </div>
     </div>
 
-
+    <script src="index.js"></script> 
 </body>
 
 </html>

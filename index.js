@@ -33,7 +33,7 @@ function currentTime() {
         let c = document.getElementById("getup");
         c.innerText = "GOOD AFTERNOON !! TAKE SOME SLEEP"
     }
-    else if (hh < 5 && hh == 4 && session === "PM") {
+    else if (hh < 8 && hh >= 4 && session === "PM") {
         let a = document.getElementById("wakeUp");
         a.innerText = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
         a.style.textAlign = "center";
@@ -51,7 +51,7 @@ function currentTime() {
         let c = document.getElementById("getup");
         c.innerText = "GOOD NIGHT!!";
     }
-    else if (hh > 1 && hh >= 7 && hh < 11) {
+    else if (hh > 1 && hh >= 7 && hh < 11 && session === "AM") {
         let a = document.getElementById("wakeUp");
         a.innerText = "GRAB SOME HEALTHY BREAKFAST!!!";
         a.style.textAlign = "center";

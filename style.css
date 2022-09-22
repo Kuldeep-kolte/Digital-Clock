@@ -79,25 +79,35 @@ select {
 .setAlarm {
     color: white;
     width: 13rem;
-    height: 2rem;
+    height: 3rem;
     background-color: #9140B5;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 5px;
+    padding-top: 5px;
     padding-left: 10px;
     text-align: center;
     margin-top: 1.5rem;
-
+    font-size: 25px;
+}
+.setAlarm:hover{
+    background-color: black;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'DynaPuff', cursive;
+    box-shadow: 0 5px 5px 0 rgb(236, 234, 234), 0 17px 50px 0 rgba(243, 239, 239, 0.92);
+    border-radius: 25px;
+    padding-top: 0px;
 }
 
 .note {
-    width: 250px;
+    width: 255px;
     height: 100px;
     background-color: #8E53F0;
     margin-left: 20px;
     margin-top: 1rem;
     border-radius: 5px;
     padding: 10px;
-    color: #FC5EFF;
+    color: white;
 }
 
 .note ul li {

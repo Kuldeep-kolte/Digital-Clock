@@ -66,23 +66,23 @@ function currentTime() {
     document.getElementById("interval").innerText = session;
     let t = setTimeout(function () { currentTime() }, 1000);
 }
-function getSelectValue() {
-    let selctvalue = document.getElementById("list").value;
-    alert(selctvalue);
-}
-function getSelectValue2() {
-    let selctvalue2 = document.getElementById("list2").value;
-    alert(selctvalue2);
-}
+// 
+function myFunction() {
+    let w = document.getElementById("list").value;
+    document.getElementById("wakeupTime").innerHTML = w;
+    let x = document.getElementById("list2").value;
+    document.getElementById("lunchTime").innerHTML = x;
+    let y = document.getElementById("list3").value;
+    document.getElementById("NapTime").innerText = y;
+    let z = document.getElementById("list4").value;
+    document.getElementById("NightTime").innerText = z;
 
-function getSelectValue3() {
-    let selctvalue3 = document.getElementById("list3").value;
-    alert(selctvalue3);
-}
-function getSelectValue4() {
-    let selctvalue4 = document.getElementById("list4").value;
-    alert(selctvalue4);
-}
 
+    if (
+		w == "0" && x == "0" && y == "0" && z == "0") {
+		alert("⚠ Please set the time ⏳ before getting started !! 🙇‍♀️");
+    }
+
+  }
 
 currentTime();

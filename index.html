@@ -23,9 +23,9 @@
         <div class="timetext"><b> TIME </b></div>
         <!-- <div id="clock" onload="currentTime()"></div> -->
         <div class="hours" id="hh"></div><span id="colon">:</span>
-        <div class="mins" id = "mm"></div><span id="colon">:</span>
-        <div class="secs" id = "ss"></div>
-        <div class="pm" id = "interval"></div>
+        <div class="mins" id="mm"></div><span id="colon">:</span>
+        <div class="secs" id="ss"></div>
+        <div class="pm" id="interval"></div>
     </div>
 
     <div class="timecounter1"> </div>
@@ -41,31 +41,31 @@
                 light_mode
             </span>
             <span>Set Wake Up Time</span>
-            <select id = "list" onchange="getSelectValue();">
-                <option value="0">Select Time</option>
-                <option value="1">01 AM - 02 AM</option>
-                <option value="2">02 AM - 03 AM</option>
-                <option value="3">03 AM - 04 AM</option>
-                <option value="4">04 AM - 05 AM</option>
-                <option value="5">05 AM - 06 AM</option>
-                <option value="6" selected>06 AM - 07 AM</option>
-                <option value="7">07 AM - 08 AM</option>
-                <option value="8">08 AM - 09 AM</option>
-                <option value="9">09 AM - 10 AM</option>
-                <option value="10">10 AM - 11 AM</option>
-                <option value="11">11 AM - 12 PM</option>
-                <option value="12">12 PM - 01 PM</option>
-                <option value="1">01 PM - 02 PM</option>
-                <option value="2">02 PM - 03 PM</option>
-                <option value="3">03 PM - 04 PM</option>
-                <option value="4">04 PM - 05 PM</option>
-                <option value="5">05 PM - 06 PM</option>
-                <option value="6">06 PM - 07 PM</option>
-                <option value="7">07 PM - 08 PM</option>
-                <option value="8">08 PM - 09 PM</option>
-                <option value="9">09 PM - 10 PM</option>
-                <option value="10">10 PM - 11 PM</option>
-                <option value="11">11 PM - 12 AM</option>
+            <select id="list" onchange="getSelectValue();">
+                <option value="0"selected>Select Time</option>
+                <option value="01 AM - 02 AM">01 AM - 02 AM</option>
+                <option value="02 AM - 03 AM">02 AM - 03 AM</option>
+                <option value="03 AM - 04 AM">03 AM - 04 AM</option>
+                <option value="04 AM - 05 AM">04 AM - 05 AM</option>
+                <option value="05 AM - 06 AM">05 AM - 06 AM</option>
+                <option value="06 AM - 07 AM">06 AM - 07 AM</option>
+                <option value="07 AM - 08 AM">07 AM - 08 AM</option>
+                <option value="08 AM - 09 AM">08 AM - 09 AM</option>
+                <option value="09 AM - 10 AM">09 AM - 10 AM</option>
+                <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                <option value="11 AM - 12 PM">11 AM - 12 PM</option>
+                <option value="12 PM - 01 PM">12 PM - 01 PM</option>
+                <option value="01 PM - 02 PM">01 PM - 02 PM</option>
+                <option value="02 PM - 03 PM">02 PM - 03 PM</option>
+                <option value="03 PM - 04 PM">03 PM - 04 PM</option>
+                <option value="04 PM - 05 PM">04 PM - 05 PM</option>
+                <option value="05 PM - 06 PM">05 PM - 06 PM</option>
+                <option value="06 PM - 07 PM">06 PM - 07 PM</option>
+                <option value="07 PM - 08 PM">07 PM - 08 PM</option>
+                <option value="08 PM - 09 PM">08 PM - 09 PM</option>
+                <option value="09 PM - 10 PM">09 PM - 10 PM</option>
+                <option value="10 PM - 11 PM">10 PM - 11 PM</option>
+                <option value="11 PM - 12 AM">11 PM - 12 AM</option>
             </select>
         </div>
         <span class="material-symbols-outlined">
@@ -77,31 +77,31 @@
             </span>
             <span>Set Lunch Time</span>
             <span class="lunchTime"> </span>
-            <select id = "list2" onchange="getSelectValue2();">
-                <option value="0">Select Time</option>
-                <option value="1">01 AM - 02 AM</option>
-                <option value="2">02 AM - 03 AM</option>
-                <option value="3">03 AM - 04 AM</option>
-                <option value="4">04 AM - 05 AM</option>
-                <option value="5">05 AM - 06 AM</option>
-                <option value="6" selected>06 AM - 07 AM</option>
-                <option value="7">07 AM - 08 AM</option>
-                <option value="8">08 AM - 09 AM</option>
-                <option value="9">09 AM - 10 AM</option>
-                <option value="10">10 AM - 11 AM</option>
-                <option value="11">11 AM - 12 PM</option>
-                <option value="12">12 PM - 01 PM</option>
-                <option value="1">01 PM - 02 PM</option>
-                <option value="2">02 PM - 03 PM</option>
-                <option value="3">03 PM - 04 PM</option>
-                <option value="4">04 PM - 05 PM</option>
-                <option value="5">05 PM - 06 PM</option>
-                <option value="6">06 PM - 07 PM</option>
-                <option value="7">07 PM - 08 PM</option>
-                <option value="8">08 PM - 09 PM</option>
-                <option value="9">09 PM - 10 PM</option>
-                <option value="10">10 PM - 11 PM</option>
-                <option value="11">11 PM - 12 AM</option>
+            <select id="list2" onchange="getSelectValue2();">
+                <option value="0"selected>Select Time</option>
+                <option value="01 AM - 02 AM">01 AM - 02 AM</option>
+                <option value="02 AM - 03 AM">02 AM - 03 AM</option>
+                <option value="03 AM - 04 AM">03 AM - 04 AM</option>
+                <option value="04 AM - 05 AM">04 AM - 05 AM</option>
+                <option value="05 AM - 06 AM">05 AM - 06 AM</option>
+                <option value="06 AM - 07 AM">06 AM - 07 AM</option>
+                <option value="07 AM - 08 AM">07 AM - 08 AM</option>
+                <option value="08 AM - 09 AM">08 AM - 09 AM</option>
+                <option value="09 AM - 10 AM">09 AM - 10 AM</option>
+                <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                <option value="11 AM - 12 PM">11 AM - 12 PM</option>
+                <option value="12 PM - 01 PM">12 PM - 01 PM</option>
+                <option value="01 PM - 02 PM">01 PM - 02 PM</option>
+                <option value="02 PM - 03 PM">02 PM - 03 PM</option>
+                <option value="03 PM - 04 PM">03 PM - 04 PM</option>
+                <option value="04 PM - 05 PM">04 PM - 05 PM</option>
+                <option value="05 PM - 06 PM">05 PM - 06 PM</option>
+                <option value="06 PM - 07 PM">06 PM - 07 PM</option>
+                <option value="07 PM - 08 PM">07 PM - 08 PM</option>
+                <option value="08 PM - 09 PM">08 PM - 09 PM</option>
+                <option value="09 PM - 10 PM">09 PM - 10 PM</option>
+                <option value="10 PM - 11 PM">10 PM - 11 PM</option>
+                <option value="11 PM - 12 AM">11 PM - 12 AM</option>
             </select>
         </div>
         <span class="material-symbols-outlined">
@@ -113,31 +113,31 @@
             </span>
             <span>Set Nap Time</span>
             <span class="napTime"></span>
-            <select id = "list3" onchange="getSelectValue3();">
-                <option value="0">Select Time</option>
-                <option value="1">01 AM - 02 AM</option>
-                <option value="2">02 AM - 03 AM</option>
-                <option value="3">03 AM - 04 AM</option>
-                <option value="4">04 AM - 05 AM</option>
-                <option value="5">05 AM - 06 AM</option>
-                <option value="6" selected>06 AM - 07 AM</option>
-                <option value="7">07 AM - 08 AM</option>
-                <option value="8">08 AM - 09 AM</option>
-                <option value="9">09 AM - 10 AM</option>
-                <option value="10">10 AM - 11 AM</option>
-                <option value="11">11 AM - 12 PM</option>
-                <option value="12">12 PM - 01 PM</option>
-                <option value="1">01 PM - 02 PM</option>
-                <option value="2">02 PM - 03 PM</option>
-                <option value="3">03 PM - 04 PM</option>
-                <option value="4">04 PM - 05 PM</option>
-                <option value="5">05 PM - 06 PM</option>
-                <option value="6">06 PM - 07 PM</option>
-                <option value="7">07 PM - 08 PM</option>
-                <option value="8">08 PM - 09 PM</option>
-                <option value="9">09 PM - 10 PM</option>
-                <option value="10">10 PM - 11 PM</option>
-                <option value="11">11 PM - 12 AM</option>
+            <select id="list3" onchange="getSelectValue3();">
+                <option value="0"selected>Select Time</option>
+                <option value="01 AM - 02 AM">01 AM - 02 AM</option>
+                <option value="02 AM - 03 AM">02 AM - 03 AM</option>
+                <option value="03 AM - 04 AM">03 AM - 04 AM</option>
+                <option value="04 AM - 05 AM">04 AM - 05 AM</option>
+                <option value="05 AM - 06 AM">05 AM - 06 AM</option>
+                <option value="06 AM - 07 AM">06 AM - 07 AM</option>
+                <option value="07 AM - 08 AM">07 AM - 08 AM</option>
+                <option value="08 AM - 09 AM">08 AM - 09 AM</option>
+                <option value="09 AM - 10 AM">09 AM - 10 AM</option>
+                <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                <option value="11 AM - 12 PM">11 AM - 12 PM</option>
+                <option value="12 PM - 01 PM">12 PM - 01 PM</option>
+                <option value="01 PM - 02 PM">01 PM - 02 PM</option>
+                <option value="02 PM - 03 PM">02 PM - 03 PM</option>
+                <option value="03 PM - 04 PM">03 PM - 04 PM</option>
+                <option value="04 PM - 05 PM">04 PM - 05 PM</option>
+                <option value="05 PM - 06 PM">05 PM - 06 PM</option>
+                <option value="06 PM - 07 PM">06 PM - 07 PM</option>
+                <option value="07 PM - 08 PM">07 PM - 08 PM</option>
+                <option value="08 PM - 09 PM">08 PM - 09 PM</option>
+                <option value="09 PM - 10 PM">09 PM - 10 PM</option>
+                <option value="10 PM - 11 PM">10 PM - 11 PM</option>
+                <option value="11 PM - 12 AM">11 PM - 12 AM</option>
             </select>
         </div>
         <span class="material-symbols-outlined">
@@ -149,59 +149,58 @@
             </span>
             <span>Set night Time</span>
             <span class="nightTime"> </span>
-            <select id = "list4" onchange="getSelectValue4();">
-                <option value="0">Select Time</option>
-                <option value="1">01 AM - 02 AM</option>
-                <option value="2">02 AM - 03 AM</option>
-                <option value="3">03 AM - 04 AM</option>
-                <option value="4">04 AM - 05 AM</option>
-                <option value="5">05 AM - 06 AM</option>
-                <option value="6" selected>06 AM - 07 AM</option>
-                <option value="7">07 AM - 08 AM</option>
-                <option value="8">08 AM - 09 AM</option>
-                <option value="9" selected>09 AM - 10 AM</option>
-                <option value="10">10 AM - 11 AM</option>
-                <option value="11">11 AM - 12 PM</option>
-                <option value="12">12 PM - 01 PM</option>
-                <option value="1">01 PM - 02 PM</option>
-                <option value="2">02 PM - 03 PM</option>
-                <option value="3">03 PM - 04 PM</option>
-                <option value="4">04 PM - 05 PM</option>
-                <option value="5">05 PM - 06 PM</option>
-                <option value="6">06 PM - 07 PM</option>
-                <option value="7">07 PM - 08 PM</option>
-                <option value="8">08 PM - 09 PM</option>
-                <option value="9">09 PM - 10 PM</option>
-                <option value="10">10 PM - 11 PM</option>
-                <option value="11">11 PM - 12 AM</option>
+            <select id="list4" onchange="getSelectValue4();">
+                <option value="0"selected>Select Time</option>
+                <option value="01 AM - 02 AM">01 AM - 02 AM</option>
+                <option value="02 AM - 03 AM">02 AM - 03 AM</option>
+                <option value="03 AM - 04 AM">03 AM - 04 AM</option>
+                <option value="04 AM - 05 AM">04 AM - 05 AM</option>
+                <option value="05 AM - 06 AM">05 AM - 06 AM</option>
+                <option value="06 AM - 07 AM">06 AM - 07 AM</option>
+                <option value="07 AM - 08 AM">07 AM - 08 AM</option>
+                <option value="08 AM - 09 AM">08 AM - 09 AM</option>
+                <option value="09 AM - 10 AM">09 AM - 10 AM</option>
+                <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                <option value="11 AM - 12 PM">11 AM - 12 PM</option>
+                <option value="12 PM - 01 PM">12 PM - 01 PM</option>
+                <option value="01 PM - 02 PM">01 PM - 02 PM</option>
+                <option value="02 PM - 03 PM">02 PM - 03 PM</option>
+                <option value="03 PM - 04 PM">03 PM - 04 PM</option>
+                <option value="04 PM - 05 PM">04 PM - 05 PM</option>
+                <option value="05 PM - 06 PM">05 PM - 06 PM</option>
+                <option value="06 PM - 07 PM">06 PM - 07 PM</option>
+                <option value="07 PM - 08 PM">07 PM - 08 PM</option>
+                <option value="08 PM - 09 PM">08 PM - 09 PM</option>
+                <option value="09 PM - 10 PM">09 PM - 10 PM</option>
+                <option value="10 PM - 11 PM">10 PM - 11 PM</option>
+                <option value="11 PM - 12 AM">11 PM - 12 AM</option>
             </select>
         </div>
     </div>
 
     <!-- Good Morning wake up -->
     <div class="goodMorning">
-        <h2 id = "getup"></h2>
+        <h2 id="getup"></h2>
     </div>
 
     <!-- set alarm button -->
     <div class="btn1 ">
-        <div class="setAlarm tooltip1">
-            <span class="tooltiptext1">Time will be updated here after clicking on "Set Alarm"</span>
-            <h3>Set Alarm</h3>
+        <div class="setAlarm ">
+            <h3  class="button" type="button" onclick="myFunction()">Set Alarm</h3>
         </div>
-        
+
         <!-- note about timing -->
         <div class="note">
             <ul>
-                <li>Wake Up Time : 10AM - 11AM</li>
-                <li>Lunch Time : 12PM - 01PM</li>
-                <li>Nap Time : 4PM - 5PM</li>
-                <li>Night Time : 08PM - 09AM</li>
+                <li>Wake Up Time : <span id="wakeupTime"></span> </li>
+                <li>Lunch Time : <span id="lunchTime"></span></li>
+                <li>Nap Time : <span id="NapTime"></span></li>
+                <li>Night Time : <span id="NightTime"></span></li>
             </ul>
         </div>
     </div>
 
-    <script src="index.js"></script> 
+    <script src="index.js"></script>
 </body>
 
 </html>

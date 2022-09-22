@@ -69,6 +69,11 @@ select {
     font-family: 'DynaPuff', cursive;
     text-transform: uppercase;
     border-radius: 5px;
+    text-align: center;
+}
+.goodMorning:hover{
+    color: crimson;
+    border-radius: 25px;
 }
 
 .btn1 {

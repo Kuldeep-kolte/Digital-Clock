@@ -51,7 +51,7 @@ function currentTime() {
         let c = document.getElementById("getup");
         c.innerText = "GOOD NIGHT!!";
     }
-    else if (hh > 1 && hh >= 7 && hh < 11 && session === "AM") {
+    else if (hh > 1 && hh >= 7 && hh < 12 && session === "AM") {
         let a = document.getElementById("wakeUp");
         a.innerText = "GRAB SOME HEALTHY BREAKFAST!!!";
         a.style.textAlign = "center";
